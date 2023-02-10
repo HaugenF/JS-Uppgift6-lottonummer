@@ -14,9 +14,9 @@ section {
   justify-content: center;
   align-items: center;
   margin-right: 10px;
-  font-size: 25px;
 }
 
 .circle p {
-  color: white;
+  color: #485b28;
+  font-size: 45px;
 }
