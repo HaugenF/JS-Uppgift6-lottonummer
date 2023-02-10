@@ -6,11 +6,11 @@ let lotto5 = document.querySelector(".lotto-5");
 let lotto6 = document.querySelector(".lotto-6");
 let lotto7 = document.querySelector(".lotto-7");
 const container = document.getElementById("circle-container");
-const startLotto = document.querySelector(".gameBtn");
+const lottoBtn = document.querySelector(".gameBtn");
 
 let lottoRad = [0, 0, 0, 0, 0, 0, 0];
 
-startLotto.addEventListener("click", function nyLottoRad() {
+lottoBtn.addEventListener("click", function nyLottoRad() {
   for (let i = 0; i < lottoRad.length; i++) {
     lottoRad[i] = Math.floor(Math.random() * 20 + 1);
   }
@@ -22,4 +22,5 @@ startLotto.addEventListener("click", function nyLottoRad() {
   lotto6.innerHTML = lottoRad[5];
   lotto7.innerHTML = lottoRad[6];
   container.classList.add("gameOn");
+  lottoBtn.innerHTML = "Ny rad";
 });
