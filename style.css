@@ -1,4 +1,9 @@
-.circle-container {
+body {
+  color: #485b28;
+  font-size: 45px;
+}
+
+#circle-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,8 +20,6 @@
   justify-content: center;
   align-items: center;
   margin: 0 10px;
-  color: #485b28;
-  font-size: 45px;
 }
 
 .lotto-btn {
