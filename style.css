@@ -1,8 +1,9 @@
-section {
+.circle-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80px;
+  margin: 25px;
 }
 
 .circle {
@@ -13,10 +14,23 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 10px;
+  margin: 0 10px;
 }
 
 .circle p {
   color: #485b28;
   font-size: 45px;
+}
+
+.lotto-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: lightgray;
+  border: none;
+  border-radius: 5px;
 }
