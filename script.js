@@ -9,7 +9,7 @@ const container = document.getElementById("circle-container");
 const lottoBtn = document.querySelector(".gameBtn");
 const resetBtn = document.querySelector(".resetBtn");
 const lottoNr = [lotto1, lotto2, lotto3, lotto4, lotto5, lotto6, lotto7];
-let lottoRad = [0, 0, 0, 0, 0, 0, 0];
+const lottoRad = [0, 0, 0, 0, 0, 0, 0];
 
 lottoBtn.addEventListener("click", function nyLottoRad() {
   for (let i = 0; i < lottoRad.length; i++) {
